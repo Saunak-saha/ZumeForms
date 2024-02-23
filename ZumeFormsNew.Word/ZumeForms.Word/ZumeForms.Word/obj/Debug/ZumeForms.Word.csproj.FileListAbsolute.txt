@@ -1,0 +1,231 @@
+C:\Users\bfall\Source\Workspaces\ZumeForms - New\ZumeForms.Word\ZumeForms.Word\obj\Debug\ZumeForms.Word.Forms.ConditionalRegion.resources
+C:\Users\bfall\Source\Workspaces\ZumeForms - New\ZumeForms.Word\ZumeForms.Word\obj\Debug\ZumeForms.Word.Forms.FieldsNotInForm.resources
+C:\Users\bfall\Source\Workspaces\ZumeForms - New\ZumeForms.Word\ZumeForms.Word\obj\Debug\ZumeForms.Word.Forms.FieldStructure.resources
+C:\Users\bfall\Source\Workspaces\ZumeForms - New\ZumeForms.Word\ZumeForms.Word\obj\Debug\ZumeForms.Word.Forms.FormFields.resources
+C:\Users\bfall\Source\Workspaces\ZumeForms - New\ZumeForms.Word\ZumeForms.Word\obj\Debug\ZumeForms.Word.Forms.ListFormat.resources
+C:\Users\bfall\Source\Workspaces\ZumeForms - New\ZumeForms.Word\ZumeForms.Word\obj\Debug\ZumeForms.Word.Forms.MergeField.resources
+C:\Users\bfall\Source\Workspaces\ZumeForms - New\ZumeForms.Word\ZumeForms.Word\obj\Debug\ZumeForms.Word.Forms.TableRegion.resources
+C:\Users\bfall\Source\Workspaces\ZumeForms - New\ZumeForms.Word\ZumeForms.Word\obj\Debug\ZumeForms.Word.Forms.UserForms.resources
+C:\Users\bfall\Source\Workspaces\ZumeForms - New\ZumeForms.Word\ZumeForms.Word\obj\Debug\ZumeForms.Word.Properties.Resources.resources
+C:\Users\bfall\Source\Workspaces\ZumeForms - New\ZumeForms.Word\ZumeForms.Word\obj\Debug\ZumeForms.Word.UserControls.ConditionalRegion.resources
+C:\Users\bfall\Source\Workspaces\ZumeForms - New\ZumeForms.Word\ZumeForms.Word\obj\Debug\ZumeForms.Word.UserControls.ConditionalRegionFilter.resources
+C:\Users\bfall\Source\Workspaces\ZumeForms - New\ZumeForms.Word\ZumeForms.Word\obj\Debug\ZumeForms.Word.UserControls.FieldStructure.resources
+C:\Users\bfall\Source\Workspaces\ZumeForms - New\ZumeForms.Word\ZumeForms.Word\obj\Debug\ZumeForms.Word.UserControls.FormFields.resources
+C:\Users\bfall\Source\Workspaces\ZumeForms - New\ZumeForms.Word\ZumeForms.Word\obj\Debug\ZumeForms.Word.UserControls.ListFormat.resources
+C:\Users\bfall\Source\Workspaces\ZumeForms - New\ZumeForms.Word\ZumeForms.Word\obj\Debug\ZumeForms.Word.UserControls.MailMergeField.resources
+C:\Users\bfall\Source\Workspaces\ZumeForms - New\ZumeForms.Word\ZumeForms.Word\obj\Debug\ZumeForms.Word.UserControls.TableRegion.resources
+C:\Users\bfall\Source\Workspaces\ZumeForms - New\ZumeForms.Word\ZumeForms.Word\obj\Debug\ZumeForms.Word.UserControls.ucUserForm2.resources
+C:\Users\bfall\Source\Workspaces\ZumeForms - New\ZumeForms.Word\ZumeForms.Word\obj\Debug\ZumeForms.Word.ZumeForms.resources
+C:\Users\bfall\Source\Workspaces\ZumeForms - New\ZumeForms.Word\ZumeForms.Word\obj\Debug\ZumeForms.Word.csproj.GenerateResource.Cache
+C:\Users\bfall\Source\Workspaces\ZumeForms - New\ZumeForms.Word\ZumeForms.Word\obj\Debug\ZumeForms.Word.dll.licenses
+C:\Users\bfall\Source\Workspaces\ZumeForms - New\ZumeForms.Word\ZumeForms.Word\bin\Debug\ZumeForms.Word.dll
+C:\Users\bfall\Source\Workspaces\ZumeForms - New\ZumeForms.Word\ZumeForms.Word\bin\Debug\ZumeForms.Word.pdb
+C:\Users\bfall\Source\Workspaces\ZumeForms - New\ZumeForms.Word\ZumeForms.Word\bin\Debug\ZumeForms.Word.dll.manifest
+C:\Users\bfall\Source\Workspaces\ZumeForms - New\ZumeForms.Word\ZumeForms.Word\bin\Debug\ZumeForms.Word.vsto
+C:\Users\bfall\Source\Workspaces\ZumeForms - New\ZumeForms.Word\ZumeForms.Word\bin\Debug\Aspose.Words.dll
+C:\Users\bfall\Source\Workspaces\ZumeForms - New\ZumeForms.Word\ZumeForms.Word\bin\Debug\HtmlAgilityPack.dll
+C:\Users\bfall\Source\Workspaces\ZumeForms - New\ZumeForms.Word\ZumeForms.Word\bin\Debug\Janus.Data.v3.dll
+C:\Users\bfall\Source\Workspaces\ZumeForms - New\ZumeForms.Word\ZumeForms.Word\bin\Debug\Janus.Windows.Common.v3.dll
+C:\Users\bfall\Source\Workspaces\ZumeForms - New\ZumeForms.Word\ZumeForms.Word\bin\Debug\Janus.Windows.FilterEditor.v3.dll
+C:\Users\bfall\Source\Workspaces\ZumeForms - New\ZumeForms.Word\ZumeForms.Word\bin\Debug\Janus.Windows.GridEX.v3.dll
+C:\Users\bfall\Source\Workspaces\ZumeForms - New\ZumeForms.Word\ZumeForms.Word\bin\Debug\Janus.Windows.UI.v3.dll
+C:\Users\bfall\Source\Workspaces\ZumeForms - New\ZumeForms.Word\ZumeForms.Word\bin\Debug\Microsoft.Office.Tools.Common.dll
+C:\Users\bfall\Source\Workspaces\ZumeForms - New\ZumeForms.Word\ZumeForms.Word\bin\Debug\Microsoft.Office.Tools.Common.v4.0.Utilities.dll
+C:\Users\bfall\Source\Workspaces\ZumeForms - New\ZumeForms.Word\ZumeForms.Word\bin\Debug\Microsoft.Office.Tools.dll
+C:\Users\bfall\Source\Workspaces\ZumeForms - New\ZumeForms.Word\ZumeForms.Word\bin\Debug\Microsoft.Office.Tools.v4.0.Framework.dll
+C:\Users\bfall\Source\Workspaces\ZumeForms - New\ZumeForms.Word\ZumeForms.Word\bin\Debug\Microsoft.Office.Tools.Word.dll
+C:\Users\bfall\Source\Workspaces\ZumeForms - New\ZumeForms.Word\ZumeForms.Word\bin\Debug\Microsoft.VisualStudio.Tools.Applications.Runtime.dll
+C:\Users\bfall\Source\Workspaces\ZumeForms - New\ZumeForms.Word\ZumeForms.Word\bin\Debug\Newtonsoft.Json.dll
+C:\Users\bfall\Source\Workspaces\ZumeForms - New\ZumeForms.Word\ZumeForms.Word\bin\Debug\SqlParser.dll
+C:\Users\bfall\Source\Workspaces\ZumeForms - New\ZumeForms.Word\ZumeForms.Word\bin\Debug\WordFusion.Assembly.dll
+C:\Users\bfall\Source\Workspaces\ZumeForms - New\ZumeForms.Word\ZumeForms.Word\bin\Debug\WordFusion.Encryption.dll
+C:\Users\bfall\Source\Workspaces\ZumeForms - New\ZumeForms.Word\ZumeForms.Word\bin\Debug\WordFusion.System.Helper.dll
+C:\Users\bfall\Source\Workspaces\ZumeForms - New\ZumeForms.Word\ZumeForms.Word\bin\Debug\WordFusion.SystemFramework.dll
+C:\Users\bfall\Source\Workspaces\ZumeForms - New\ZumeForms.Word\ZumeForms.Word\bin\Debug\Janus.Windows.CalendarCombo.v3.dll
+C:\Users\bfall\Source\Workspaces\ZumeForms - New\ZumeForms.Word\ZumeForms.Word\bin\Debug\Svg.dll
+C:\Users\bfall\Source\Workspaces\ZumeForms - New\ZumeForms.Word\ZumeForms.Word\bin\Debug\Janus.Windows.GridEX.v3.xml
+C:\Users\bfall\Source\Workspaces\ZumeForms - New\ZumeForms.Word\ZumeForms.Word\bin\Debug\Janus.Windows.UI.v3.xml
+C:\Users\bfall\Source\Workspaces\ZumeForms - New\ZumeForms.Word\ZumeForms.Word\bin\Debug\Janus.Windows.CalendarCombo.v3.xml
+C:\Users\bfall\Source\Workspaces\ZumeForms - New\ZumeForms.Word\ZumeForms.Word\obj\Debug\ZumeForms.Word.dll
+C:\Users\bfall\Source\Workspaces\ZumeForms - New\ZumeForms.Word\ZumeForms.Word\obj\Debug\ZumeForms.Word.pdb
+C:\Users\bfall\Source\Workspaces\ZumeForms - New\ZumeForms.Word\ZumeForms.Word\obj\Debug\ZumeForms.Word.csprojResolveAssemblyReference.cache
+C:\Users\bfall\Source\Workspaces\ZumeForms - New\ZumeForms.Word\ZumeForms.Word\obj\Debug\ZumeForms.Word.csproj.CoreCompileInputs.cache
+D:\Source\ZumeForms.Word\ZumeForms.Word\obj\Debug\ZumeForms.Word.Forms.ConditionalRegion.resources
+D:\Source\ZumeForms.Word\ZumeForms.Word\obj\Debug\ZumeForms.Word.Forms.FieldsNotInForm.resources
+D:\Source\ZumeForms.Word\ZumeForms.Word\obj\Debug\ZumeForms.Word.Forms.FieldStructure.resources
+D:\Source\ZumeForms.Word\ZumeForms.Word\obj\Debug\ZumeForms.Word.Forms.FormFields.resources
+D:\Source\ZumeForms.Word\ZumeForms.Word\obj\Debug\ZumeForms.Word.Forms.ListFormat.resources
+D:\Source\ZumeForms.Word\ZumeForms.Word\obj\Debug\ZumeForms.Word.Forms.MergeField.resources
+D:\Source\ZumeForms.Word\ZumeForms.Word\obj\Debug\ZumeForms.Word.Forms.TableRegion.resources
+D:\Source\ZumeForms.Word\ZumeForms.Word\obj\Debug\ZumeForms.Word.Forms.UserForms.resources
+D:\Source\ZumeForms.Word\ZumeForms.Word\obj\Debug\ZumeForms.Word.Properties.Resources.resources
+D:\Source\ZumeForms.Word\ZumeForms.Word\obj\Debug\ZumeForms.Word.UserControls.ConditionalRegion.resources
+D:\Source\ZumeForms.Word\ZumeForms.Word\obj\Debug\ZumeForms.Word.UserControls.ConditionalRegionFilter.resources
+D:\Source\ZumeForms.Word\ZumeForms.Word\obj\Debug\ZumeForms.Word.UserControls.FieldStructure.resources
+D:\Source\ZumeForms.Word\ZumeForms.Word\obj\Debug\ZumeForms.Word.UserControls.FormFields.resources
+D:\Source\ZumeForms.Word\ZumeForms.Word\obj\Debug\ZumeForms.Word.UserControls.ListFormat.resources
+D:\Source\ZumeForms.Word\ZumeForms.Word\obj\Debug\ZumeForms.Word.UserControls.MailMergeField.resources
+D:\Source\ZumeForms.Word\ZumeForms.Word\obj\Debug\ZumeForms.Word.UserControls.TableRegion.resources
+D:\Source\ZumeForms.Word\ZumeForms.Word\obj\Debug\ZumeForms.Word.UserControls.ucUserForm2.resources
+D:\Source\ZumeForms.Word\ZumeForms.Word\obj\Debug\ZumeForms.Word.ZumeForms.resources
+D:\Source\ZumeForms.Word\ZumeForms.Word\obj\Debug\ZumeForms.Word.csproj.GenerateResource.Cache
+D:\Source\ZumeForms.Word\ZumeForms.Word\obj\Debug\ZumeForms.Word.dll.licenses
+D:\Source\ZumeForms.Word\ZumeForms.Word\obj\Debug\ZumeForms.Word.dll
+D:\Source\ZumeForms.Word\ZumeForms.Word\obj\Debug\ZumeForms.Word.pdb
+D:\Source\ZumeForms.Word\ZumeForms.Word\bin\Debug\ZumeForms.Word.dll
+D:\Source\ZumeForms.Word\ZumeForms.Word\bin\Debug\ZumeForms.Word.pdb
+D:\Source\ZumeForms.Word\ZumeForms.Word\bin\Debug\Janus.Data.v3.dll
+D:\Source\ZumeForms.Word\ZumeForms.Word\bin\Debug\Janus.Windows.Common.v3.dll
+D:\Source\ZumeForms.Word\ZumeForms.Word\bin\Debug\Janus.Windows.FilterEditor.v3.dll
+D:\Source\ZumeForms.Word\ZumeForms.Word\bin\Debug\Janus.Windows.GridEX.v3.dll
+D:\Source\ZumeForms.Word\ZumeForms.Word\bin\Debug\Janus.Windows.UI.v3.dll
+D:\Source\ZumeForms.Word\ZumeForms.Word\bin\Debug\Microsoft.Office.Tools.Common.dll
+D:\Source\ZumeForms.Word\ZumeForms.Word\bin\Debug\Microsoft.Office.Tools.Common.v4.0.Utilities.dll
+D:\Source\ZumeForms.Word\ZumeForms.Word\bin\Debug\Microsoft.Office.Tools.dll
+D:\Source\ZumeForms.Word\ZumeForms.Word\bin\Debug\Microsoft.Office.Tools.v4.0.Framework.dll
+D:\Source\ZumeForms.Word\ZumeForms.Word\bin\Debug\Microsoft.Office.Tools.Word.dll
+D:\Source\ZumeForms.Word\ZumeForms.Word\bin\Debug\Microsoft.VisualStudio.Tools.Applications.Runtime.dll
+D:\Source\ZumeForms.Word\ZumeForms.Word\bin\Debug\Newtonsoft.Json.dll
+D:\Source\ZumeForms.Word\ZumeForms.Word\bin\Debug\Janus.Windows.CalendarCombo.v3.dll
+D:\Source\ZumeForms.Word\ZumeForms.Word\bin\Debug\Janus.Windows.Common.v3.xml
+D:\Source\ZumeForms.Word\ZumeForms.Word\bin\Debug\Janus.Windows.FilterEditor.v3.xml
+D:\Source\ZumeForms.Word\ZumeForms.Word\bin\Debug\Janus.Windows.GridEX.v3.xml
+D:\Source\ZumeForms.Word\ZumeForms.Word\bin\Debug\Janus.Windows.UI.v3.xml
+D:\Source\ZumeForms.Word\ZumeForms.Word\bin\Debug\Janus.Windows.CalendarCombo.v3.xml
+D:\Source\ZumeForms.Word\ZumeForms.Word\obj\Debug\ZumeForms.Word.csproj.CoreCompileInputs.cache
+D:\Source\ZumeForms.Word\ZumeForms.Word\bin\Debug\ZumeForms.Word.dll.manifest
+D:\Source\ZumeForms.Word\ZumeForms.Word\bin\Debug\ZumeForms.Word.vsto
+D:\Source\ZumeForms.Word\ZumeForms.Word\obj\Debug\ZumeForms.Word.UserControls.ShortIf.resources
+D:\Source\ZumeForms.Word\ZumeForms.Word\obj\Debug\ZumeForms.Word.Forms.ShortIf.resources
+D:\Source\ZumeForms.Word\ZumeForms.Word\obj\Debug\ZumeForms.Word.csprojResolveAssemblyReference.cache
+D:\MyData\Desktop\ZumeForms.Word\ZumeForms.Word\obj\Debug\ZumeForms.Word.Forms.ConditionalRegion.resources
+D:\MyData\Desktop\ZumeForms.Word\ZumeForms.Word\obj\Debug\ZumeForms.Word.Forms.FieldsNotInForm.resources
+D:\MyData\Desktop\ZumeForms.Word\ZumeForms.Word\obj\Debug\ZumeForms.Word.Forms.FieldStructure.resources
+D:\MyData\Desktop\ZumeForms.Word\ZumeForms.Word\obj\Debug\ZumeForms.Word.Forms.FormFields.resources
+D:\MyData\Desktop\ZumeForms.Word\ZumeForms.Word\obj\Debug\ZumeForms.Word.Forms.ListFormat.resources
+D:\MyData\Desktop\ZumeForms.Word\ZumeForms.Word\obj\Debug\ZumeForms.Word.Forms.MergeField.resources
+D:\MyData\Desktop\ZumeForms.Word\ZumeForms.Word\obj\Debug\ZumeForms.Word.Forms.ShortIf.resources
+D:\MyData\Desktop\ZumeForms.Word\ZumeForms.Word\obj\Debug\ZumeForms.Word.Forms.TableRegion.resources
+D:\MyData\Desktop\ZumeForms.Word\ZumeForms.Word\obj\Debug\ZumeForms.Word.Forms.UserForms.resources
+D:\MyData\Desktop\ZumeForms.Word\ZumeForms.Word\obj\Debug\ZumeForms.Word.Properties.Resources.resources
+D:\MyData\Desktop\ZumeForms.Word\ZumeForms.Word\obj\Debug\ZumeForms.Word.UserControls.ConditionalRegion.resources
+D:\MyData\Desktop\ZumeForms.Word\ZumeForms.Word\obj\Debug\ZumeForms.Word.UserControls.ConditionalRegionFilter.resources
+D:\MyData\Desktop\ZumeForms.Word\ZumeForms.Word\obj\Debug\ZumeForms.Word.UserControls.FieldStructure.resources
+D:\MyData\Desktop\ZumeForms.Word\ZumeForms.Word\obj\Debug\ZumeForms.Word.UserControls.FormFields.resources
+D:\MyData\Desktop\ZumeForms.Word\ZumeForms.Word\obj\Debug\ZumeForms.Word.UserControls.ListFormat.resources
+D:\MyData\Desktop\ZumeForms.Word\ZumeForms.Word\obj\Debug\ZumeForms.Word.UserControls.MailMergeField.resources
+D:\MyData\Desktop\ZumeForms.Word\ZumeForms.Word\obj\Debug\ZumeForms.Word.UserControls.ShortIf.resources
+D:\MyData\Desktop\ZumeForms.Word\ZumeForms.Word\obj\Debug\ZumeForms.Word.UserControls.TableRegion.resources
+D:\MyData\Desktop\ZumeForms.Word\ZumeForms.Word\obj\Debug\ZumeForms.Word.UserControls.ucUserForm2.resources
+D:\MyData\Desktop\ZumeForms.Word\ZumeForms.Word\obj\Debug\ZumeForms.Word.ZumeForms.resources
+D:\MyData\Desktop\ZumeForms.Word\ZumeForms.Word\obj\Debug\ZumeForms.Word.csproj.GenerateResource.cache
+D:\MyData\Desktop\ZumeForms.Word\ZumeForms.Word\obj\Debug\ZumeForms.Word.dll.licenses
+D:\MyData\Desktop\ZumeForms.Word\ZumeForms.Word\obj\Debug\ZumeForms.Word.dll
+D:\MyData\Desktop\ZumeForms.Word\ZumeForms.Word\obj\Debug\ZumeForms.Word.pdb
+D:\MyData\Desktop\ZumeForms.Word\ZumeForms.Word\obj\Debug\ZumeForms.Word.csproj.CoreCompileInputs.cache
+D:\MyData\Desktop\ZumeForms.Word\ZumeForms.Word\bin\Debug\ZumeForms.Word.dll
+D:\MyData\Desktop\ZumeForms.Word\ZumeForms.Word\bin\Debug\ZumeForms.Word.pdb
+D:\MyData\Desktop\ZumeForms.Word\ZumeForms.Word\bin\Debug\ZumeForms.Word.dll.manifest
+D:\MyData\Desktop\ZumeForms.Word\ZumeForms.Word\bin\Debug\ZumeForms.Word.vsto
+D:\MyData\Desktop\ZumeForms.Word\ZumeForms.Word\bin\Debug\Aspose.Pdf.dll
+D:\MyData\Desktop\ZumeForms.Word\ZumeForms.Word\bin\Debug\Aspose.Words.dll
+D:\MyData\Desktop\ZumeForms.Word\ZumeForms.Word\bin\Debug\HtmlAgilityPack.dll
+D:\MyData\Desktop\ZumeForms.Word\ZumeForms.Word\bin\Debug\Janus.Data.v3.dll
+D:\MyData\Desktop\ZumeForms.Word\ZumeForms.Word\bin\Debug\Janus.Windows.ButtonBar.v3.dll
+D:\MyData\Desktop\ZumeForms.Word\ZumeForms.Word\bin\Debug\Janus.Windows.CalendarCombo.v3.dll
+D:\MyData\Desktop\ZumeForms.Word\ZumeForms.Word\bin\Debug\Janus.Windows.Common.v3.dll
+D:\MyData\Desktop\ZumeForms.Word\ZumeForms.Word\bin\Debug\Janus.Windows.FilterEditor.v3.dll
+D:\MyData\Desktop\ZumeForms.Word\ZumeForms.Word\bin\Debug\Janus.Windows.GridEX.v3.dll
+D:\MyData\Desktop\ZumeForms.Word\ZumeForms.Word\bin\Debug\Janus.Windows.UI.v3.dll
+D:\MyData\Desktop\ZumeForms.Word\ZumeForms.Word\bin\Debug\Microsoft.Office.Tools.Common.dll
+D:\MyData\Desktop\ZumeForms.Word\ZumeForms.Word\bin\Debug\Microsoft.Office.Tools.Common.v4.0.Utilities.dll
+D:\MyData\Desktop\ZumeForms.Word\ZumeForms.Word\bin\Debug\Microsoft.Office.Tools.dll
+D:\MyData\Desktop\ZumeForms.Word\ZumeForms.Word\bin\Debug\Microsoft.Office.Tools.v4.0.Framework.dll
+D:\MyData\Desktop\ZumeForms.Word\ZumeForms.Word\bin\Debug\Microsoft.Office.Tools.Word.dll
+D:\MyData\Desktop\ZumeForms.Word\ZumeForms.Word\bin\Debug\Microsoft.VisualStudio.Tools.Applications.Runtime.dll
+D:\MyData\Desktop\ZumeForms.Word\ZumeForms.Word\bin\Debug\Newtonsoft.Json.dll
+D:\MyData\Desktop\ZumeForms.Word\ZumeForms.Word\bin\Debug\SqlParser.dll
+D:\MyData\Desktop\ZumeForms.Word\ZumeForms.Word\bin\Debug\WordFusion.Assembly.dll
+D:\MyData\Desktop\ZumeForms.Word\ZumeForms.Word\bin\Debug\WordFusion.Encryption.dll
+D:\MyData\Desktop\ZumeForms.Word\ZumeForms.Word\bin\Debug\WordFusion.System.Helper.dll
+D:\MyData\Desktop\ZumeForms.Word\ZumeForms.Word\bin\Debug\WordFusion.SystemFramework.dll
+D:\MyData\Desktop\ZumeForms.Word\ZumeForms.Word\bin\Debug\Svg.dll
+D:\MyData\Desktop\ZumeForms.Word\ZumeForms.Word\obj\Debug\ZumeForms.Word.csproj.CopyComplete
+D:\MyData\Desktop\ZumeForms.Word\ZumeForms.Word\obj\Debug\ZumeForms.Word.csprojAssemblyReference.cache
+D:\Repos\ZumeForms.Word\ZumeForms.Word\obj\Debug\ZumeForms.Word.csproj.AssemblyReference.cache
+D:\Repos\ZumeForms.Word\ZumeForms.Word\obj\Debug\ZumeForms.Word.Forms.ConditionalRegion.resources
+D:\Repos\ZumeForms.Word\ZumeForms.Word\obj\Debug\ZumeForms.Word.Forms.FieldsNotInForm.resources
+D:\Repos\ZumeForms.Word\ZumeForms.Word\obj\Debug\ZumeForms.Word.Forms.FieldStructure.resources
+D:\Repos\ZumeForms.Word\ZumeForms.Word\obj\Debug\ZumeForms.Word.Forms.FormFields.resources
+D:\Repos\ZumeForms.Word\ZumeForms.Word\obj\Debug\ZumeForms.Word.Forms.ListFormat.resources
+D:\Repos\ZumeForms.Word\ZumeForms.Word\obj\Debug\ZumeForms.Word.Forms.MergeField.resources
+D:\Repos\ZumeForms.Word\ZumeForms.Word\obj\Debug\ZumeForms.Word.Forms.ShortIf.resources
+D:\Repos\ZumeForms.Word\ZumeForms.Word\obj\Debug\ZumeForms.Word.Forms.TableRegion.resources
+D:\Repos\ZumeForms.Word\ZumeForms.Word\obj\Debug\ZumeForms.Word.Forms.UserForms.resources
+D:\Repos\ZumeForms.Word\ZumeForms.Word\obj\Debug\ZumeForms.Word.Properties.Resources.resources
+D:\Repos\ZumeForms.Word\ZumeForms.Word\obj\Debug\ZumeForms.Word.UserControls.ConditionalRegion.resources
+D:\Repos\ZumeForms.Word\ZumeForms.Word\obj\Debug\ZumeForms.Word.UserControls.ConditionalRegionFilter.resources
+D:\Repos\ZumeForms.Word\ZumeForms.Word\obj\Debug\ZumeForms.Word.UserControls.FieldStructure.resources
+D:\Repos\ZumeForms.Word\ZumeForms.Word\obj\Debug\ZumeForms.Word.UserControls.FormFields.resources
+D:\Repos\ZumeForms.Word\ZumeForms.Word\obj\Debug\ZumeForms.Word.UserControls.ListFormat.resources
+D:\Repos\ZumeForms.Word\ZumeForms.Word\obj\Debug\ZumeForms.Word.UserControls.MailMergeField.resources
+D:\Repos\ZumeForms.Word\ZumeForms.Word\obj\Debug\ZumeForms.Word.UserControls.ShortIf.resources
+D:\Repos\ZumeForms.Word\ZumeForms.Word\obj\Debug\ZumeForms.Word.UserControls.TableRegion.resources
+D:\Repos\ZumeForms.Word\ZumeForms.Word\obj\Debug\ZumeForms.Word.UserControls.ucUserForm2.resources
+D:\Repos\ZumeForms.Word\ZumeForms.Word\obj\Debug\ZumeForms.Word.ZumeForms.resources
+D:\Repos\ZumeForms.Word\ZumeForms.Word\obj\Debug\ZumeForms.Word.csproj.GenerateResource.cache
+D:\Repos\ZumeForms.Word\ZumeForms.Word\obj\Debug\ZumeForms.Word.dll.licenses
+D:\Repos\ZumeForms.Word\ZumeForms.Word\obj\Debug\ZumeForms.Word.dll
+D:\Repos\ZumeForms.Word\ZumeForms.Word\obj\Debug\ZumeForms.Word.pdb
+D:\Repos\ZumeForms.Word\ZumeForms.Word\bin\Debug\ZumeForms.Word.dll
+D:\Repos\ZumeForms.Word\ZumeForms.Word\bin\Debug\ZumeForms.Word.pdb
+D:\Repos\ZumeForms.Word\ZumeForms.Word\bin\Debug\ZumeForms.Word.dll.manifest
+D:\Repos\ZumeForms.Word\ZumeForms.Word\bin\Debug\ZumeForms.Word.vsto
+D:\Repos\ZumeForms.Word\ZumeForms.Word\bin\Debug\Microsoft.Office.Tools.Common.dll
+D:\Repos\ZumeForms.Word\ZumeForms.Word\bin\Debug\Microsoft.Office.Tools.Common.v4.0.Utilities.dll
+D:\Repos\ZumeForms.Word\ZumeForms.Word\bin\Debug\Microsoft.Office.Tools.dll
+D:\Repos\ZumeForms.Word\ZumeForms.Word\bin\Debug\Microsoft.Office.Tools.v4.0.Framework.dll
+D:\Repos\ZumeForms.Word\ZumeForms.Word\bin\Debug\Microsoft.Office.Tools.Word.dll
+D:\Repos\ZumeForms.Word\ZumeForms.Word\bin\Debug\Microsoft.VisualStudio.Tools.Applications.Runtime.dll
+D:\Repos\ZumeForms.Word\ZumeForms.Word\bin\Debug\Newtonsoft.Json.dll
+D:\Repos\ZumeForms.Word\ZumeForms.Word\bin\Debug\Svg.dll
+D:\Repos\ZumeForms.Word\ZumeForms.Word\obj\Debug\ZumeForms.Word.csproj.CoreCompileInputs.cache
+D:\Repos\ZumeForms.Word\ZumeForms.Word\obj\Debug\ZumeForms.Word.csproj.CopyComplete
+D:\ZumeSoftForms.Word\ZumeFormsNew.Word\ZumeForms.Word\ZumeForms.Word\obj\Debug\ZumeForms.Word.csproj.AssemblyReference.cache
+D:\ZumeSoftForms.Word\ZumeFormsNew.Word\ZumeForms.Word\ZumeForms.Word\obj\Debug\ZumeForms.Word.Forms.ConditionalRegion.resources
+D:\ZumeSoftForms.Word\ZumeFormsNew.Word\ZumeForms.Word\ZumeForms.Word\obj\Debug\ZumeForms.Word.Forms.FieldsNotInForm.resources
+D:\ZumeSoftForms.Word\ZumeFormsNew.Word\ZumeForms.Word\ZumeForms.Word\obj\Debug\ZumeForms.Word.Forms.FieldStructure.resources
+D:\ZumeSoftForms.Word\ZumeFormsNew.Word\ZumeForms.Word\ZumeForms.Word\obj\Debug\ZumeForms.Word.Forms.FormFields.resources
+D:\ZumeSoftForms.Word\ZumeFormsNew.Word\ZumeForms.Word\ZumeForms.Word\obj\Debug\ZumeForms.Word.Forms.ListFormat.resources
+D:\ZumeSoftForms.Word\ZumeFormsNew.Word\ZumeForms.Word\ZumeForms.Word\obj\Debug\ZumeForms.Word.Forms.MergeField.resources
+D:\ZumeSoftForms.Word\ZumeFormsNew.Word\ZumeForms.Word\ZumeForms.Word\obj\Debug\ZumeForms.Word.Forms.ShortIf.resources
+D:\ZumeSoftForms.Word\ZumeFormsNew.Word\ZumeForms.Word\ZumeForms.Word\obj\Debug\ZumeForms.Word.Forms.TableRegion.resources
+D:\ZumeSoftForms.Word\ZumeFormsNew.Word\ZumeForms.Word\ZumeForms.Word\obj\Debug\ZumeForms.Word.Forms.UserForms.resources
+D:\ZumeSoftForms.Word\ZumeFormsNew.Word\ZumeForms.Word\ZumeForms.Word\obj\Debug\ZumeForms.Word.Properties.Resources.resources
+D:\ZumeSoftForms.Word\ZumeFormsNew.Word\ZumeForms.Word\ZumeForms.Word\obj\Debug\ZumeForms.Word.UserControls.ConditionalRegion.resources
+D:\ZumeSoftForms.Word\ZumeFormsNew.Word\ZumeForms.Word\ZumeForms.Word\obj\Debug\ZumeForms.Word.UserControls.ConditionalRegionFilter.resources
+D:\ZumeSoftForms.Word\ZumeFormsNew.Word\ZumeForms.Word\ZumeForms.Word\obj\Debug\ZumeForms.Word.UserControls.FieldStructure.resources
+D:\ZumeSoftForms.Word\ZumeFormsNew.Word\ZumeForms.Word\ZumeForms.Word\obj\Debug\ZumeForms.Word.UserControls.FormFields.resources
+D:\ZumeSoftForms.Word\ZumeFormsNew.Word\ZumeForms.Word\ZumeForms.Word\obj\Debug\ZumeForms.Word.UserControls.ListFormat.resources
+D:\ZumeSoftForms.Word\ZumeFormsNew.Word\ZumeForms.Word\ZumeForms.Word\obj\Debug\ZumeForms.Word.UserControls.MailMergeField.resources
+D:\ZumeSoftForms.Word\ZumeFormsNew.Word\ZumeForms.Word\ZumeForms.Word\obj\Debug\ZumeForms.Word.UserControls.ShortIf.resources
+D:\ZumeSoftForms.Word\ZumeFormsNew.Word\ZumeForms.Word\ZumeForms.Word\obj\Debug\ZumeForms.Word.UserControls.TableRegion.resources
+D:\ZumeSoftForms.Word\ZumeFormsNew.Word\ZumeForms.Word\ZumeForms.Word\obj\Debug\ZumeForms.Word.UserControls.ucUserForm2.resources
+D:\ZumeSoftForms.Word\ZumeFormsNew.Word\ZumeForms.Word\ZumeForms.Word\obj\Debug\ZumeForms.Word.ZumeForms.resources
+D:\ZumeSoftForms.Word\ZumeFormsNew.Word\ZumeForms.Word\ZumeForms.Word\obj\Debug\ZumeForms.Word.csproj.GenerateResource.cache
+D:\ZumeSoftForms.Word\ZumeFormsNew.Word\ZumeForms.Word\ZumeForms.Word\obj\Debug\ZumeForms.Word.dll.licenses
+D:\ZumeSoftForms.Word\ZumeFormsNew.Word\ZumeForms.Word\ZumeForms.Word\obj\Debug\ZumeForms.Word.dll
+D:\ZumeSoftForms.Word\ZumeFormsNew.Word\ZumeForms.Word\ZumeForms.Word\obj\Debug\ZumeForms.Word.pdb
+D:\ZumeSoftForms.Word\ZumeFormsNew.Word\ZumeForms.Word\ZumeForms.Word\bin\Debug\ZumeForms.Word.dll
+D:\ZumeSoftForms.Word\ZumeFormsNew.Word\ZumeForms.Word\ZumeForms.Word\bin\Debug\ZumeForms.Word.pdb
+D:\ZumeSoftForms.Word\ZumeFormsNew.Word\ZumeForms.Word\ZumeForms.Word\bin\Debug\ZumeForms.Word.dll.manifest
+D:\ZumeSoftForms.Word\ZumeFormsNew.Word\ZumeForms.Word\ZumeForms.Word\bin\Debug\ZumeForms.Word.vsto
+D:\ZumeSoftForms.Word\ZumeFormsNew.Word\ZumeForms.Word\ZumeForms.Word\bin\Debug\Microsoft.Office.Tools.Common.dll
+D:\ZumeSoftForms.Word\ZumeFormsNew.Word\ZumeForms.Word\ZumeForms.Word\bin\Debug\Microsoft.Office.Tools.Common.v4.0.Utilities.dll
+D:\ZumeSoftForms.Word\ZumeFormsNew.Word\ZumeForms.Word\ZumeForms.Word\bin\Debug\Microsoft.Office.Tools.dll
+D:\ZumeSoftForms.Word\ZumeFormsNew.Word\ZumeForms.Word\ZumeForms.Word\bin\Debug\Microsoft.Office.Tools.v4.0.Framework.dll
+D:\ZumeSoftForms.Word\ZumeFormsNew.Word\ZumeForms.Word\ZumeForms.Word\bin\Debug\Microsoft.Office.Tools.Word.dll
+D:\ZumeSoftForms.Word\ZumeFormsNew.Word\ZumeForms.Word\ZumeForms.Word\bin\Debug\Microsoft.VisualStudio.Tools.Applications.Runtime.dll
+D:\ZumeSoftForms.Word\ZumeFormsNew.Word\ZumeForms.Word\ZumeForms.Word\bin\Debug\Newtonsoft.Json.dll
+D:\ZumeSoftForms.Word\ZumeFormsNew.Word\ZumeForms.Word\ZumeForms.Word\obj\Debug\ZumeForms.Word.csproj.CoreCompileInputs.cache
+D:\ZumeSoftForms.Word\ZumeFormsNew.Word\ZumeForms.Word\ZumeForms.Word\obj\Debug\ZumeForms.Word.csproj.CopyComplete

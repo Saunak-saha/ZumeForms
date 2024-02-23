@@ -1,0 +1,495 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <!--
+    This section defines project-level properties.
+
+    AssemblyName
+      Name of the output assembly.
+    Configuration
+      Specifies a default value for debug.
+    OutputType
+      Must be "Library" for VSTO.
+    Platform
+      Specifies what CPU the output of this project can run on.
+    NoStandardLibraries
+      Set to "false" for VSTO.
+    RootNamespace
+      In C#, this specifies the namespace given to new files. In VB, all objects are
+      wrapped in this namespace at runtime.
+  -->
+  <PropertyGroup>
+    <ProjectTypeGuids>{BAA0C2D2-18E2-41B9-852F-F413020CAA33};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{A844C4A9-8B71-46C1-AAC1-E769589A51CE}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <NoStandardLibraries>false</NoStandardLibraries>
+    <RootNamespace>ZumeForms.Word</RootNamespace>
+    <AssemblyName>ZumeForms.Word</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <DefineConstants>VSTO40</DefineConstants>
+    <IsWebBootstrapper>True</IsWebBootstrapper>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <PublishUrl>publish\</PublishUrl>
+    <InstallUrl>https://www.syntaq.com/publish/publish/</InstallUrl>
+    <TargetCulture>en</TargetCulture>
+    <ApplicationVersion>1.1.0.36</ApplicationVersion>
+    <AutoIncrementApplicationRevision>true</AutoIncrementApplicationRevision>
+    <UpdateEnabled>true</UpdateEnabled>
+    <UpdateInterval>0</UpdateInterval>
+    <UpdateIntervalUnits>days</UpdateIntervalUnits>
+    <ProductName>ZumeForms.Word</ProductName>
+    <PublisherName>ZumeSoft Solutions Pty Ltd</PublisherName>
+    <SupportUrl />
+    <FriendlyName>ZumeForms.Word</FriendlyName>
+    <OfficeApplicationDescription />
+    <LoadBehavior>3</LoadBehavior>
+  </PropertyGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5.2 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.VSTORuntime.4.0">
+      <Visible>False</Visible>
+      <ProductName>Microsoft Visual Studio 2010 Tools for Office Runtime %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.4.5">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 4.5</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <PropertyGroup>
+    <!--
+      OfficeApplication
+        Add-in host application
+    -->
+    <OfficeApplication>Word</OfficeApplication>
+  </PropertyGroup>
+  <!--
+    This section defines properties that are set when the "Debug" configuration is selected.
+
+    DebugSymbols
+      If "true", create symbols (.pdb). If "false", do not create symbols.
+    DefineConstants
+      Constants defined for the preprocessor.
+    EnableUnmanagedDebugging
+      If "true", starting the debugger will attach both managed and unmanaged debuggers.
+    Optimize
+      If "true", optimize the build output. If "false", do not optimize.
+    OutputPath
+      Output path of project relative to the project file.
+    WarningLevel
+      Warning level for the compiler.
+  -->
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+    <DefineConstants>$(DefineConstants);DEBUG;TRACE</DefineConstants>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <!--
+    This section defines properties that are set when the "Release" configuration is selected.
+
+    DebugSymbols
+      If "true", create symbols (.pdb). If "false", do not create symbols.
+    DefineConstants
+      Constants defined for the preprocessor.
+    EnableUnmanagedDebugging
+      If "true", starting the debugger will attach both managed and unmanaged debuggers.
+    Optimize
+      If "true", optimize the build output. If "false", do not optimize.
+    OutputPath
+      Output path of project relative to the project file.
+    WarningLevel
+      Warning level for the compiler.
+  -->
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+    <DefineConstants>$(DefineConstants);TRACE</DefineConstants>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <!--
+    This section specifies references for the project.
+  -->
+  <ItemGroup>
+    <Reference Include="Accessibility" />
+    <Reference Include="Aspose.Pdf">
+      <HintPath>C:\Users\bfall\Source\Workspaces\ZumeForms - New\WordFusion.Kiwi.Web\packages\_3rdParty\Aspose.Pdf.dll</HintPath>
+    </Reference>
+    <Reference Include="Aspose.Words, Version=10.6.0.0, Culture=neutral, PublicKeyToken=716fcc553a201e56, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Users\bfall\Source\Workspaces\ZumeForms - New\WordFusion.Kiwi.Web\packages\_3rdParty\Aspose.Words.dll</HintPath>
+    </Reference>
+    <Reference Include="HtmlAgilityPack">
+      <HintPath>C:\Users\bfall\Source\Workspaces\ZumeForms - New\WordFusion.Kiwi.Web\packages\_3rdParty\HtmlAgilityPack.dll</HintPath>
+    </Reference>
+    <Reference Include="Janus.Data.v3, Version=3.5.0.0, Culture=neutral, PublicKeyToken=21d5517571b185bf, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Users\bfall\Source\Workspaces\ZumeForms - New\WordFusion.Kiwi.Web\packages\_3rdParty\Janus.Data.v3.dll</HintPath>
+    </Reference>
+    <Reference Include="Janus.Windows.ButtonBar.v3">
+      <HintPath>C:\Users\bfall\Source\Workspaces\ZumeForms - New\WordFusion.Kiwi.Web\packages\_3rdParty\Janus.Windows.ButtonBar.v3.dll</HintPath>
+    </Reference>
+    <Reference Include="Janus.Windows.CalendarCombo.v3">
+      <HintPath>C:\Users\bfall\Source\Workspaces\ZumeForms - New\WordFusion.Kiwi.Web\packages\_3rdParty\Janus.Windows.CalendarCombo.v3.dll</HintPath>
+    </Reference>
+    <Reference Include="Janus.Windows.Common.v3, Version=3.5.0.0, Culture=neutral, PublicKeyToken=21d5517571b185bf, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Users\bfall\Source\Workspaces\ZumeForms - New\WordFusion.Kiwi.Web\packages\_3rdParty\Janus.Windows.Common.v3.dll</HintPath>
+    </Reference>
+    <Reference Include="Janus.Windows.FilterEditor.v3, Version=3.5.0.0, Culture=neutral, PublicKeyToken=21d5517571b185bf, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Users\bfall\Source\Workspaces\ZumeForms - New\WordFusion.Kiwi.Web\packages\_3rdParty\Janus.Windows.FilterEditor.v3.dll</HintPath>
+    </Reference>
+    <Reference Include="Janus.Windows.GridEX.v3, Version=3.5.0.0, Culture=neutral, PublicKeyToken=21d5517571b185bf, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Users\bfall\Source\Workspaces\ZumeForms - New\WordFusion.Kiwi.Web\packages\_3rdParty\Janus.Windows.GridEX.v3.dll</HintPath>
+    </Reference>
+    <Reference Include="Janus.Windows.UI.v3, Version=3.5.0.0, Culture=neutral, PublicKeyToken=21d5517571b185bf, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Users\bfall\Source\Workspaces\ZumeForms - New\WordFusion.Kiwi.Web\packages\_3rdParty\Janus.Windows.UI.v3.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\..\..\ZumeForms\WordFusion.Kiwi.Web\packages\_3rdParty\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="SqlParser">
+      <HintPath>C:\Users\bfall\Source\Workspaces\ZumeForms - New\WordFusion.Kiwi.Web\packages\_3rdParty\SqlParser.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="WordFusion.Assembly">
+      <HintPath>C:\Users\bfall\Source\Workspaces\ZumeForms - New\WordFusion.Kiwi.Web\packages\_3rdParty\WordFusion.Assembly.dll</HintPath>
+    </Reference>
+    <Reference Include="WordFusion.Encryption">
+      <HintPath>C:\Users\bfall\Source\Workspaces\ZumeForms - New\WordFusion.Kiwi.Web\packages\_3rdParty\WordFusion.Encryption.dll</HintPath>
+    </Reference>
+    <Reference Include="WordFusion.System.Helper">
+      <HintPath>C:\Users\bfall\Source\Workspaces\ZumeForms - New\WordFusion.Kiwi.Web\packages\_3rdParty\WordFusion.System.Helper.dll</HintPath>
+    </Reference>
+    <Reference Include="WordFusion.SystemFramework, Version=4.216.0.0, Culture=neutral, PublicKeyToken=9f06bdb01e09bd78, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Users\bfall\Source\Workspaces\ZumeForms - New\WordFusion.Kiwi.Web\packages\_3rdParty\WordFusion.SystemFramework.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Office.Tools.v4.0.Framework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.VisualStudio.Tools.Applications.Runtime, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.Office.Tools, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.Office.Tools.Common, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.Office.Tools.Word, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Office.Tools.Common.v4.0.Utilities, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Office, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c">
+      <Private>False</Private>
+      <EmbedInteropTypes>true</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.Word, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c">
+      <Private>False</Private>
+      <EmbedInteropTypes>true</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="stdole, Version=7.0.3300.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+      <Private>False</Private>
+    </Reference>
+  </ItemGroup>
+  <!--
+    This section defines the user source files that are part of the project.
+     
+    A "Compile" element specifies a source file to compile.
+    An "EmbeddedResource" element specifies an .resx file for embedded resources.
+    A "None" element specifies a file that is not to be passed to the compiler (for instance, 
+    a text file or XML file).
+    The "AppDesigner" element specifies the directory where the application properties files
+    can be found.
+  -->
+  <ItemGroup>
+    <Compile Include="Classes\Application.cs" />
+    <Compile Include="Classes\Fields.cs" />
+    <Compile Include="Classes\MailMerge.cs" />
+    <Compile Include="Classes\MailMergeField.cs" />
+    <Compile Include="Classes\MailMergeRegion.cs" />
+    <Compile Include="Forms\ConditionalRegion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\ConditionalRegion.Designer.cs">
+      <DependentUpon>ConditionalRegion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FieldsNotInForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FieldsNotInForm.Designer.cs">
+      <DependentUpon>FieldsNotInForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FieldStructure.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FieldStructure.Designer.cs">
+      <DependentUpon>FieldStructure.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\ShortIf.cs" />
+    <Compile Include="Forms\ShortIf.Designer.cs">
+      <DependentUpon>ShortIf.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormFields.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormFields.Designer.cs">
+      <DependentUpon>FormFields.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\ListFormat.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\ListFormat.Designer.cs">
+      <DependentUpon>ListFormat.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\MergeField.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\MergeField.Designer.cs">
+      <DependentUpon>MergeField.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\TableRegion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\TableRegion.Designer.cs">
+      <DependentUpon>TableRegion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\UserForms.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\UserForms.Designer.cs">
+      <DependentUpon>UserForms.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="UserControls\ConditionalRegion.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\ConditionalRegion.Designer.cs">
+      <DependentUpon>ConditionalRegion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\ConditionalRegionFilter.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\ConditionalRegionFilter.Designer.cs">
+      <DependentUpon>ConditionalRegionFilter.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\FieldStructure.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\FieldStructure.designer.cs">
+      <DependentUpon>FieldStructure.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\FormFields.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\FormFields.Designer.cs">
+      <DependentUpon>FormFields.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\ListFormat.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\ListFormat.Designer.cs">
+      <DependentUpon>ListFormat.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\MailMergeField.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\MailMergeField.Designer.cs">
+      <DependentUpon>MailMergeField.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\TableRegion.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\TableRegion.Designer.cs">
+      <DependentUpon>TableRegion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\ucUserForm2.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\ucUserForm2.Designer.cs">
+      <DependentUpon>ucUserForm2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\ShortIf.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\ShortIf.Designer.cs">
+      <DependentUpon>ShortIf.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ZumeForms.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ZumeForms.Designer.cs">
+      <DependentUpon>ZumeForms.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Forms\ConditionalRegion.resx">
+      <DependentUpon>ConditionalRegion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FieldsNotInForm.resx">
+      <DependentUpon>FieldsNotInForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FieldStructure.resx">
+      <DependentUpon>FieldStructure.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormFields.resx">
+      <DependentUpon>FormFields.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ListFormat.resx">
+      <DependentUpon>ListFormat.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\MergeField.resx">
+      <DependentUpon>MergeField.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ShortIf.resx">
+      <DependentUpon>ShortIf.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\TableRegion.resx">
+      <DependentUpon>TableRegion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\UserForms.resx">
+      <DependentUpon>UserForms.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="UserControls\ConditionalRegion.resx">
+      <DependentUpon>ConditionalRegion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\ConditionalRegionFilter.resx">
+      <DependentUpon>ConditionalRegionFilter.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\FieldStructure.resx">
+      <DependentUpon>FieldStructure.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\FormFields.resx">
+      <DependentUpon>FormFields.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\ListFormat.resx">
+      <DependentUpon>ListFormat.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\MailMergeField.resx">
+      <DependentUpon>MailMergeField.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\ShortIf.resx">
+      <DependentUpon>ShortIf.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\TableRegion.resx">
+      <DependentUpon>TableRegion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\ucUserForm2.resx">
+      <DependentUpon>ucUserForm2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ZumeForms.resx">
+      <DependentUpon>ZumeForms.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Aspose.Words.lic" />
+    <None Include="Certificate.pfx" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="ThisAddIn.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <None Include="Syntaq Solutions Pty Ltd.pfx" />
+    <None Include="SYNTAQSolutionsPtyLtd.pfx" />
+    <None Include="SyntaqZumeForms2024.pfx" />
+    <None Include="ThisAddIn.Designer.xml">
+      <DependentUpon>ThisAddIn.cs</DependentUpon>
+    </None>
+    <Compile Include="ThisAddIn.Designer.cs">
+      <DependentUpon>ThisAddIn.Designer.xml</DependentUpon>
+    </Compile>
+    <AppDesigner Include="Properties\" />
+    <None Include="ZumeForms.Word_2_TemporaryKey.pfx" />
+    <None Include="ZumeForms.Word_3_TemporaryKey.pfx" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>
+    </ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>A247EA734956926734DFA8C8CE1019E183BF9B31</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>false</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>SyntaqZumeForms2024.pfx</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <DelaySign>false</DelaySign>
+  </PropertyGroup>
+  <!-- Include the build rules for a C# project. -->
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- Include additional build rules for an Office application add-in. -->
+  <Import Project="$(VSToolsPath)\OfficeTools\Microsoft.VisualStudio.Tools.Office.targets" Condition="'$(VSToolsPath)' != ''" />
+  <!-- This section defines VSTO properties that describe the host-changeable project properties. -->
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{BAA0C2D2-18E2-41B9-852F-F413020CAA33}">
+        <ProjectProperties HostName="Word" HostPackage="{29A7B9D7-A7F1-4328-8EF0-6B2D1A56B2C1}" OfficeVersion="15.0" VstxVersion="4.0" ApplicationType="Word" Language="cs" TemplatesPath="" DebugInfoExeName="#Software\Microsoft\Office\16.0\Word\InstallRoot\Path#WINWORD.EXE" DebugInfoCommandLine="/x" AddItemTemplatesGuid="{51063C3A-E220-4D12-8922-BDA915ACD783}" />
+        <Host Name="Word" GeneratedCodeNamespace="ZumeForms.Word" PublishedHash="69C324AB27932AA2FBF2B7EA72250886FF164DE6" IconIndex="0">
+          <HostItem Name="ThisAddIn" Code="ThisAddIn.cs" CanonicalName="AddIn" PublishedHash="683E6441E0A5AA88B9FFE5393334C7E23476997E" CanActivate="false" IconIndex="1" Blueprint="ThisAddIn.Designer.xml" GeneratedCode="ThisAddIn.Designer.cs" />
+        </Host>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>
