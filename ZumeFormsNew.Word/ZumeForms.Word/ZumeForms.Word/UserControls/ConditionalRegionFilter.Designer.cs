@@ -1,4 +1,8 @@
-﻿namespace ZumeForms.Word.UserControls {
+﻿using Janus.Data;
+using Janus.Windows.GridEX;
+using System;
+
+namespace ZumeForms.Word.UserControls {
     partial class ConditionalRegionFilter {
         /// <summary> 
         /// Required designer variable.
@@ -56,7 +60,7 @@
             | Janus.Windows.FilterEditor.AvailableConditionOperators.LessThanOrEqualTo) 
             | Janus.Windows.FilterEditor.AvailableConditionOperators.Contains)));
             this.filterEditor1.AvailableLogicalOperators = ((Janus.Windows.FilterEditor.AvailableLogicalOperators)((Janus.Windows.FilterEditor.AvailableLogicalOperators.And | Janus.Windows.FilterEditor.AvailableLogicalOperators.Or)));
-            this.filterEditor1.BackColor = System.Drawing.Color.Transparent;
+            this.filterEditor1.BackColor = System.Drawing.Color.Aqua;
             this.filterEditor1.Dock = System.Windows.Forms.DockStyle.Top;
             this.filterEditor1.InnerAreaStyle = Janus.Windows.UI.Dock.PanelInnerAreaStyle.UseFormatStyle;
             this.filterEditor1.Location = new System.Drawing.Point(0, 40);
@@ -66,6 +70,7 @@
             this.filterEditor1.ScrollMode = Janus.Windows.UI.Dock.ScrollMode.Both;
             this.filterEditor1.ScrollStep = 15;
             this.filterEditor1.Size = new System.Drawing.Size(661, 45);
+
             this.filterEditor1.SourceControl = this.gridEX1;
             this.filterEditor1.VisualStyle = Janus.Windows.Common.VisualStyle.Office2007;
             this.filterEditor1.FilterConditionChanged += new System.EventHandler(this.filterEditor1_FilterConditionChanged);
@@ -130,7 +135,8 @@
             this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "ConditionalRegionFilter";
             this.Size = new System.Drawing.Size(661, 443);
-            this.Load += new System.EventHandler(this.ConditionalRegionFilter_Load);
+           
+           this.Load += new System.EventHandler(this.ConditionalRegionFilter_Load);
             ((System.ComponentModel.ISupportInitialize)(this.gridEX1)).EndInit();
             this.pnlHeader.ResumeLayout(false);
             this.pnlHeader.PerformLayout();
@@ -139,13 +145,18 @@
 
         }
 
+        private void GridEX1_RootTableChanged(object sender, EventArgs e)
+        {
+            throw new NotImplementedException();
+        }
+
         #endregion
 
-        private Janus.Windows.GridEX.GridEX gridEX1;
-        private Janus.Windows.FilterEditor.FilterEditor filterEditor1;
-        private System.Windows.Forms.TextBox txtFilter;
-        private System.Windows.Forms.Panel pnlHeader;
-        private System.Windows.Forms.RadioButton radFormFields;
-        private System.Windows.Forms.RadioButton radDocFields;
+        public Janus.Windows.GridEX.GridEX gridEX1;
+        public Janus.Windows.FilterEditor.FilterEditor filterEditor1;
+        public System.Windows.Forms.TextBox txtFilter;
+        public System.Windows.Forms.Panel pnlHeader;
+        public System.Windows.Forms.RadioButton radFormFields;
+        public System.Windows.Forms.RadioButton radDocFields;
     }
 }

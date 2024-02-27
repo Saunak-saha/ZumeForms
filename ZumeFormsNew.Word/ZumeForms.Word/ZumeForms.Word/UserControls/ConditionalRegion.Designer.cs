@@ -121,7 +121,7 @@
 
         #endregion
 
-        private System.Windows.Forms.TextBox txtName;
+        public System.Windows.Forms.TextBox txtName;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Label label2;

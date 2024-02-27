@@ -108,6 +108,7 @@
             this.formTreeView.Name = "formTreeView";
             this.formTreeView.Size = new System.Drawing.Size(684, 549);
             this.formTreeView.TabIndex = 1;
+            formTreeView.NodeMouseClick += formTreeView_NodeMouseClick;
             // 
             // ucFormFields
             // 

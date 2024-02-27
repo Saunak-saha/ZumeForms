@@ -81,7 +81,7 @@
             // ConditionalRegion
             // 
             this.AcceptButton = this.btnOk;
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 21F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Control;
             this.CancelButton = this.btnCancel;
@@ -95,6 +95,7 @@
             this.MinimizeBox = false;
             this.Name = "ConditionalRegion";
             this.Padding = new System.Windows.Forms.Padding(6);
+            this.ShowIcon = false;
             this.ShowInTaskbar = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.ConditionalRegion_FormClosing);
@@ -106,7 +107,7 @@
 
         #endregion
 
-        private global::ZumeForms.Word.UserControls.ConditionalRegion conditionalRegion1;
+        public global::ZumeForms.Word.UserControls.ConditionalRegion conditionalRegion1;
         private System.Windows.Forms.Panel pnlFooter;
         private System.Windows.Forms.Button btnOk;
         private System.Windows.Forms.Button btnCancel;

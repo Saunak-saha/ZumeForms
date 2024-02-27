@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Janus.Windows.GridEX;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -14,6 +15,7 @@ namespace ZumeForms.Word.Forms {
     public partial class UserForms : Form {
 
         public System.Xml.Linq.XElement Fields;
+        public static GridEX GridEXNewFromUSer { get; set; }
 
         public UserForms() {
             InitializeComponent();
@@ -21,12 +23,12 @@ namespace ZumeForms.Word.Forms {
             txtUserPassword.TextBox.PasswordChar = '*';
         }
 
+        public static string ConditionalRegionText { get; set; }
         private void ucUserForm21_FormSelected(object sender, EventArgs e) {
 
             ComboboxItem itm = (ComboboxItem)sender;
 
             if (itm != null) {
-
                 ucFormFields.LoadFormFieldsFromFormScheme(itm.Value.ToString());
 
                 formTreeView.Nodes.Clear();
@@ -34,6 +36,33 @@ namespace ZumeForms.Word.Forms {
 
                 formTreeView.Show();
 
+                if (ConditionalRegionFilter.radDocFieldsChecked)
+                {
+                    Classes.Application.frmZumeForm.Fields = ucFormFields.xComponentTreeData;
+                    ConditionalRegionFilter.isUserFormSelected = true;
+                    ConditionalRegionFilter.radDocFieldsChecked = false;
+                    if (Classes.Application.frmZumeForm.Fields != null)
+                    {
+                        foreach (System.Xml.Linq.XElement xfield in Classes.Application.frmZumeForm.Fields.Descendants())
+                        {
+                            String strField = xfield.Name.LocalName;
+                            Classes.FormField datafld = new Classes.FormField();
+
+                            if (xfield.Attribute("FieldName") == null)
+                            {
+                                String fldname = ""; IEnumerable<WordFusion.Assembly.MailMerge.MergeFieldSwitch> switches;
+                                Classes.MailMerge.ParseMergeFieldValue(strField, out fldname, out switches);
+                                datafld.Field = fldname; datafld.FieldType = "WordFusion.Controls.Text";
+                                Classes.FormFields.Fields.Add(datafld);
+                            }
+                        }
+                        ConditionalRegionFilter.GridEXNew.DataMember = "Form";
+                        ConditionalRegionFilter.GridEXNew.DataSource = Classes.FormFields.FieldFormDataSet;
+                    }
+                    ConditionalRegionFilter.GridEXNew.RetrieveStructure(true);
+                    Classes.Application.frmZumeForm.Close();
+                }
+                
                 //ucFormFields.LoadForm(itm.Value.ToString());
                 //Fields = ucFormFields.xSummaryData;
             }
@@ -92,6 +121,31 @@ namespace ZumeForms.Word.Forms {
         private void txtUserPassword_KeyUp(object sender, KeyEventArgs e) {
             if (e.KeyCode == Keys.Enter) {
                 LoadFields();
+            }
+        }
+
+        private void formTreeView_Click(object sender, EventArgs e)
+        {
+            TreeViewHitTestInfo info = formTreeView.HitTest(formTreeView.PointToClient(Cursor.Position));
+            if (info != null)
+                MessageBox.Show(info.Node.Text);
+        }
+
+        private void formTreeView_AfterSelect(object sender, TreeViewEventArgs e)
+        {
+            TreeViewHitTestInfo info = formTreeView.HitTest(formTreeView.PointToClient(Cursor.Position));
+            if (info != null)
+                MessageBox.Show(info.Node.Text);
+        }
+
+        public void formTreeView_NodeMouseClick(object sender, TreeNodeMouseClickEventArgs e)
+        {
+            if (ConditionalRegionFilter.radDocFieldsChecked)
+            {
+                ConditionalRegion conditionalRegion = new ConditionalRegion();
+                conditionalRegion.conditionalRegion1.RegionName = e.Node.Text;
+                ConditionalRegionText = e.Node.Text;
+                //MessageBox.Show(e.Node.Text);
             }
         }
     }

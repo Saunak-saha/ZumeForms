@@ -6,6 +6,7 @@ using System.Windows.Forms;
 using System.IO;
 using Aspose.Words;
 using System.Data;
+using ZumeForms.Word.Forms;
 
 namespace ZumeForms.Word.Classes {
 

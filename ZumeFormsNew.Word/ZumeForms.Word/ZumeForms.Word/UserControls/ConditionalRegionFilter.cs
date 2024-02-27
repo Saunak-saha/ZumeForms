@@ -8,16 +8,20 @@ using System.Text;
 using System.Windows.Forms;
 using System.Xml;
 using Parser;
+using System.Threading.Tasks;
+using Janus.Windows.GridEX;
 
 namespace ZumeForms.Word.UserControls {
     public partial class ConditionalRegionFilter : UserControl {
 
         public event System.EventHandler ConditionChanged;
-
+        public static bool radDocFieldsChecked {  get; set; }
+        public static bool isUserFormSelected {  get; set; }
+        public static GridEX GridEXNew {  get; set; }
         public ConditionalRegionFilter() {
             InitializeComponent();
         }
-        
+
         public String Filter {
             get {
                 String retval = "";                
@@ -40,50 +44,53 @@ namespace ZumeForms.Word.UserControls {
             LoadFields();
         }
 
-        private void LoadFields() {
+        public void LoadFields(bool isFormSelected = false) {
 
-            if (radDocFields.Checked) {
-
+            
+            if (radDocFields.Checked && !isFormSelected) {
+                radDocFieldsChecked = false;
                 Classes.FormFields.LoadFieldListFromDocument();
+                Classes.FormFields.Fields.Clear();
 
                 gridEX1.DataMember = "Form";
                 gridEX1.DataSource = Classes.FormFields.FieldFormDataSet;
 
+                //Clean Tables
+                gridEX1.RetrieveStructure(true);
+                CleanTable(gridEX1.RootTable);
+
             }
             else {
-                
-                if (Classes.Application.frmZumeForm.IsDisposed) { Classes.Application.frmZumeForm = new Word.Forms.UserForms(); }
+                radDocFieldsChecked = true;
 
+                if (Classes.Application.frmZumeForm.IsDisposed) { Classes.Application.frmZumeForm = new Word.Forms.UserForms(); }
                 Classes.Application.frmZumeForm.Show();
                 Classes.Application.frmZumeForm.BringToFront();
-
                 Classes.FormFields.Fields.Clear();
 
-                if(Classes.Application.frmZumeForm.Fields != null) {
-
-                    foreach (System.Xml.Linq.XElement xfield in Classes.Application.frmZumeForm.Fields.Descendants()) {
-
+                if (Classes.Application.frmZumeForm.Fields != null)
+                {
+                    foreach (System.Xml.Linq.XElement xfield in Classes.Application.frmZumeForm.Fields.Descendants())
+                    {
                         String strField = xfield.Name.LocalName;
                         Classes.FormField datafld = new Classes.FormField();
 
-                        if (xfield.Attribute("FieldName") != null) {
+                        if (xfield.Attribute("FieldName") == null)
+                        {
                             String fldname = ""; IEnumerable<WordFusion.Assembly.MailMerge.MergeFieldSwitch> switches;
                             Classes.MailMerge.ParseMergeFieldValue(strField, out fldname, out switches);
                             datafld.Field = fldname; datafld.FieldType = "WordFusion.Controls.Text";
                             Classes.FormFields.Fields.Add(datafld);
                         }
                     }
-
                     gridEX1.DataMember = "Form";
                     gridEX1.DataSource = Classes.FormFields.FieldFormDataSet;
                 }
 
+                gridEX1.RetrieveStructure(true);
+                GridEXNew = gridEX1;
+                CleanTable(gridEX1.RootTable);
             }
-
-            //Clean Tables
-            gridEX1.RetrieveStructure(true);
-            CleanTable(gridEX1.RootTable);
-
         }
 
         private void CleanTable(Janus.Windows.GridEX.GridEXTable parenttable) {
@@ -99,7 +106,7 @@ namespace ZumeForms.Word.UserControls {
                 if (childtbl.Columns.Contains("In Form")) childtbl.Columns["In Form"].FilterEditType = Janus.Windows.GridEX.FilterEditType.NoEdit;
                 if (childtbl.Columns.Contains("In Doc")) childtbl.Columns["In Doc"].FilterEditType = Janus.Windows.GridEX.FilterEditType.NoEdit;
 
-                CleanTable(childtbl);
+              CleanTable(childtbl);
             }
 
         }

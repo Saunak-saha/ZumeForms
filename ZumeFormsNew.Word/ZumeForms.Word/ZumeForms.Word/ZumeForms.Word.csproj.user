@@ -5,4 +5,7 @@
     <InstallUrlHistory>https://www.syntaq.com/publish/publish/|https://www.syntaq.com/download/</InstallUrlHistory>
     <SupportUrlHistory />
   </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|AnyCPU'">
+    <EnableUnmanagedDebugging>true</EnableUnmanagedDebugging>
+  </PropertyGroup>
 </Project>
